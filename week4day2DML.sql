@@ -71,17 +71,19 @@ INSERT INTO (concession
     )
 
 INSERT INTO (theater
-    theater_id,
     movie_id,
     customer_id,
     concenssion_id,
     ticket_id,
     locations
 ) (VALUES
-    theater_id,
     movie_id,
+    FOREIGN KEY (movie_id),
     customer_id,
-    concenssion_id
+    FOREIGN KEY (customer_id),
+    concenssion_id,
+    FOREIGN KEY (concession_id),
     ticket_id,
-    locations
+    FOREIGN KEY (ticket_id),
+    'Los Angeles'
 )
