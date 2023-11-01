@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "bubble.db.elephantsql.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Week4Day2 Homework",
+            "database": "uovogefx",
+            "username": "uovogefx",
+            "password": "rMnmH6v2i0DsVB4upWNmBFKi4quQJfK3"
+        }
+    ]
+}
