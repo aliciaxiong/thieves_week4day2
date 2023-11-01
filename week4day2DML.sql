@@ -77,13 +77,13 @@ INSERT INTO (theater
     ticket_id,
     locations
 ) (VALUES
-    movie_id,
+    'movie_id',
     FOREIGN KEY (movie_id),
-    customer_id,
+    'customer_id',
     FOREIGN KEY (customer_id),
-    concenssion_id,
+    'concenssion_id',
     FOREIGN KEY (concession_id),
-    ticket_id,
+    'ticket_id',
     FOREIGN KEY (ticket_id),
     'Los Angeles'
 )
